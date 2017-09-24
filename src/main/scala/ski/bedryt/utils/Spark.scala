@@ -7,5 +7,5 @@ import org.apache.spark.sql.SparkSession
   */
 object Spark {
   lazy val session: SparkSession = SparkSession.builder
-    .appName("Spark Cloud Benchmark").master("local[*]").getOrCreate()
+    .appName("Spark Cloud Benchmark").getOrCreate()
 }

@@ -2,10 +2,22 @@
   {
     "Args": [
       "spark-submit",
+
       "--deploy-mode",
       "cluster",
+
+      "--driver-memory",
+      "8g",
+
+      "--executor-memory",
+      "5g",
+
+      "--executor-cores",
+      "2",
+
       "--class",
       "ski.bedryt.Main",
+
       "s3://spark-cloud-benchmark-oregon/emr/minimal.jar",
       "--pi"
     ],
