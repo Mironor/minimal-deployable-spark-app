@@ -1,0 +1,7 @@
+{
+  "InstanceProfile": "EMR_EC2_DefaultRole",
+  "AvailabilityZone": "us-west-2b",
+  "EmrManagedSlaveSecurityGroup": "sg-0fcbad3c",
+  "EmrManagedMasterSecurityGroup": "sg-0ecbad3d"
+}
+

@@ -1,0 +1,18 @@
+[
+  {
+    "Args": [
+      "spark-submit",
+      "--deploy-mode",
+      "cluster",
+      "--class",
+      "ski.bedryt.Main",
+      "s3://spark-cloud-benchmark-oregon/emr/minimal.jar",
+      "--pi"
+    ],
+    "Type": "CUSTOM_JAR",
+    "ActionOnFailure": "CONTINUE",
+    "Jar": "command-runner.jar",
+    "Properties": "",
+    "Name": "Spark application pi"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "Classification": "spark",
+    "Properties": {
+      "maximizeResourceAllocation": "true"
+    },
+    "Configurations": []
+  }
+]

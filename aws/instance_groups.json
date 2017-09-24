@@ -1,0 +1,14 @@
+[
+  {
+    "InstanceCount": 1,
+    "InstanceGroupType": "MASTER",
+    "InstanceType": "m3.xlarge",
+    "Name": "Master Instance Group"
+  },
+  {
+    "InstanceCount": 2,
+    "InstanceGroupType": "CORE",
+    "InstanceType": "m3.xlarge",
+    "Name": "Core Instance Group"
+  }
+]
